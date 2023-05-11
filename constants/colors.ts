@@ -8,6 +8,7 @@ import { DefaultTheme } from "styled-components"
 
 export const theme: DefaultTheme = {
   colors: {
-    primary: 'green'
+    primary: '#2F558D',
+    headerTextColor: '#ffffff'
   }
 }

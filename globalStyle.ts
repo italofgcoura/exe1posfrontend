@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin:0;
     padding:0;
+
+    font-family: 'Roboto';
   }
 
   *,
@@ -13,9 +15,4 @@ export const GlobalStyle = createGlobalStyle`
   *::after {
     box-sizing: inherit;
   }
-
-h1 {
-    color: yellow !important; // the important is just to show that the style works!
-}
-
 `;
