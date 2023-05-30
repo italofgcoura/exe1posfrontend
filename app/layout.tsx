@@ -1,14 +1,12 @@
 'use client';
 
+import Head from "next/head";
+
 import { ThemeProvider } from "styled-components"
 
 import { GlobalStyle } from '@/globalStyle'
-// import './globals.css'
-import { Inter } from 'next/font/google'
 
 import { theme } from "@/constants/colors";
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -24,6 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body>
         <ThemeProvider theme={theme}>
           <GlobalStyle />

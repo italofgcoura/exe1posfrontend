@@ -9,6 +9,7 @@ import { DefaultTheme } from "styled-components"
 export const theme: DefaultTheme = {
   colors: {
     primary: '#2F558D',
-    headerTextColor: '#ffffff'
+    headerTextColor: '#ffffff',
+    gray: '#1d1d1d'
   }
 }
